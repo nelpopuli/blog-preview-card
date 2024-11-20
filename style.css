@@ -26,6 +26,8 @@ main {
   background-color: var(--yellow);
   line-height: 150%;
 
+  height: 100vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,6 +70,10 @@ main {
   margin-top: 12px;
 }
 
+.blog-title:hover {
+  color: var(--yellow);
+}
+
 .blog-desc {
   font-size: 14px;
   color: var(--gray-500);
@@ -89,4 +95,10 @@ main {
 .author-name {
   color: var(--gray-950);
   font-weight: 900;
+}
+
+@media (min-width: 1440px) {
+  .blog {
+    width: 384px;
+  }
 }
